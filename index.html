@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" >
+    <title>COVID FORMULARIO</title>
+    <html><head>
+           
+        <div class="container" style="margin-top: 5%;">
+            <div class="row">
+                <div class="col-6">
+                 
+                </div>
+                <div class="col-6">
+                  
+                      <body>
+                      
+                          <div class="container">
+                          <a class="links" id="paracadastro"></a>
+                          <a class="links" id="paralogin"></a>
+                           
+                          <div class="content">   
+                            <div id="cadastro">
+                              <form method="post" action=""> 
+
+                        <h1>CONSULTA COVID</h1> 
+                                 
+                        <p> 
+                          <H4>NOME:</H4>
+                          <label for="nome_cad"></label>
+                          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="">
+                        </P> 
+
+                          <P>
+                          <h4>REGIAO </h4>
+                      <label for="rg"></label>
+                      <select id="rg">
+                        <option value="NT">NORTE</option>
+                        <option value="SL">SUL </option>
+                        <option value="CO">CENTRO - OESTE</option>
+                        <option value="SUD">SUDESTE</option>
+                        <option value="NORT">NORDESTE</option>
+                      </select>
+                    </form>
+                  </P>
+                        
+                        <p>
+                        <h4>DATA DE NASCIMENTO</h4>
+                        <label for="data_nas_login"></label>
+                        <input id="data_nas_login" name="data_nas_login" required="required" type="date" placeholder=""> 
+                      </P>
+                           <p>
+                                  <h4>Genero</h4>
+                                 <label for="ge"></label>
+                                 <select id="ge">
+                            <option value="mc">Masculino</option>
+                            <option value="fe">Feminino</option>
+                            <option value="na">Prefiro nao dizer</option>
+                             
+                            </select>
+                          </form>
+                           </p>
+
+                                        <label>ESTADO DO PACIENTE:</label>                                          
+                                    
+                                                <input type="radio" class="custom-control-input form-check-input" id="" aria-describedby="inputGroupPrepend" name="salud" value="Positivo a Covid" required>  
+                                                <label class="custom-control-label form-check-label" for="html">POSITIVO PRA COVID</label> 
+                                            </div>                                          
+                                        </div>  
+                                        <div class="form-check-inline">  
+                                            <div class="custom-control custom-radio ">  
+                                                <input type="radio" class="form-check-input" id="" aria-describedby="inputGroupPrepend" name="salud" value="Negativo a Covid" required>  
+                                                <label class="form-check-label" for="javascript">NEGATIVO PRA COVID</label>  
+                                         
+                            <div class="row">  
+                                <div class="col-sm-12 col-md-12 col-xs-12 text-center">  
+                                    <div class="float-right">  
+                                        <button class="btn btn-danger rounded-pill" type="reset">LIMPAR</button>  
+                                        <button class="btn btn-success rounded-pill" type="submit">REGISTRAR</button>  
+                                    </div>                            
+                                </div>  
+                            </div>  
+                        </form>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</body>
+</html>
